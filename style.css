@@ -53,6 +53,8 @@ body{
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
+	/*使用font-display: swap，避免文字消失*/
+	font-display: swap;
 }
 .pro-features {
 	position: fixed;
