@@ -48,13 +48,35 @@ Version:	1.1
 /*=============================
 	Global CSS 
 ===============================*/
+.preloader::after {
+	/*改善CLS*/
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	z-index: 9999;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+	opacity: 0;
+	visibility: hidden;
+}
+
 body{
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
-	/*使用font-display: swap，避免文字消失*/
-	font-display: swap;
 }
 .pro-features {
 	position: fixed;
@@ -701,6 +723,7 @@ body{
 	position: relative;
 	transform: translateY(-50%);
 	z-index:9;
+	font-display: swap
 }
 .schedule .single-schedule {
 	position: relative;
@@ -4172,3 +4195,5 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+/*新增的部分*/
