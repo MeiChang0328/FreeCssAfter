@@ -73,7 +73,8 @@ Version:	1.1
 }
 
 body{
-	font-family: 'Poppins', sans-serif
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
@@ -929,7 +930,7 @@ body{
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('img/fun-bg.jpg');
+	background:url('img/fun-bg.avif');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1035,7 +1036,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/video-bg.avif');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1095,7 +1096,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('img/call-bg.jpg');
+	background-image:url('img/call-bg.avif');
 	background-size:cover;
 	background-position:center;
 	position:relative;
@@ -4196,4 +4197,3 @@ body{
 	End Footer CSS
 ===========================*/
 
-/*新增的部分*/
