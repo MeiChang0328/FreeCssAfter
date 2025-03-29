@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/bootstrap.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/bootstrap-datepicker.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/bootstrap.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/main.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/main.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/owl-carousel.min.js" />
+        <item url="file://$PROJECT_DIR$/js/js2/steller.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/bootstrap.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/bootstrap-datepicker.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/main.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/main.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/owl-carousel.min.js" />
+      <root url="file://$PROJECT_DIR$/js/js2/steller.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
