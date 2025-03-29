@@ -2,7 +2,7 @@
 <html class="no-js" lang="zxx">
     <head>
 		<!--改善最大內容繪製問題，slider2.jpg 會被預先載入-->
-		<link rel="preload" href="img/slider2.avif" as="image">
+		<link rel="preload" href="img/slider2.avif"  as="image" />
 
 
 		<meta charset="utf-8">
@@ -45,7 +45,7 @@
 
 		<!-- Medipro CSS -->
 		<link rel="preload" href="css/normalize.css" as="style">
-		<link rel="preload" href="style.css" as="style">
+		<link rel="preload" href="minified.css" as="style">
 		<link rel="preload" href="css/responsive.css" as="style">
 
 		<!-- 載入樣式表 -->
@@ -59,7 +59,7 @@
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="minified.css">
 		<link rel="stylesheet" href="css/responsive.css">
 
 
@@ -187,7 +187,10 @@
 			<div class="hero-slider">
 				<!-- Start Single Slider -->
 
-				<div class="single-slider" style="background-image:url('img/slider2.avif')">
+				<div class="single-slider">
+					<div class="image-wrapper">
+						<img src="img/slider2.avif" height="830" width="1600" alt="Medical Services" />
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -205,7 +208,10 @@
 				</div>
 				<!-- End Single Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider.avif')">
+				<div class="single-slider">
+					<div class="image-wrapper">
+						<img src="img/slider.avif" width="1600" height="830" alt="Medical Services" />
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -223,7 +229,10 @@
 				</div>
 				<!-- Start End Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider3.avif')">
+				<div class="single-slider">
+					<div class="image-wrapper">
+						<img src="img/slider3.avif" width="1600" height="830" alt="Medical Services" />
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -232,14 +241,13 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
 									<div class="button">
 										<a href="#" class="btn">Get Appointment</a>
-										<a href="#" class="btn primary">Conatct Now</a>
+										<a href="#" class="btn primary">Contact Now</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- End Single Slider -->
 			</div>
 		</section>
 		<!--/ End Slider Area -->
@@ -509,35 +517,35 @@
 					<div class="col-lg-12 col-12">
 						<div class="owl-carousel portfolio-slider">
 							<div class="single-pf">
-								<img src="img/pf1.jpg" alt="#">
+								<img src="img/pf1.jpg" loading="lazy" width="320" height="253" alt="#">
 								<a href="portfolio-details.html" class="btn">View Details</a>
 							</div>
 							<div class="single-pf">
-								<img src="img/pf2.jpg" alt="#">
+								<img src="img/pf2.jpg" loading="lazy" width="320" height="253" alt="#">
 								<a href="portfolio-details.html" class="btn">View Details</a>
 							</div>
 							<div class="single-pf">
-								<img src="img/pf3.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf4.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf1.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf2.jpg" alt="#">
-								<a href="portfolio-details.html" class="btn">View Details</a>
-							</div>
-							<div class="single-pf">
-								<img src="img/pf3.jpg" alt="#">
+								<img src="img/pf3.jpg" loading="lazy" width="320" height="253" alt="#">
 								<a href="portfolio-details.html" class="btn">View Details</a>
 							</div>
 							<div class="single-pf">
 								<img src="img/pf4.jpg" alt="#">
+								<a href="portfolio-details.html" class="btn">View Details</a>
+							</div>
+							<div class="single-pf">
+								<img src="img/pf1.jpg" loading="lazy" height="253" width="320" alt="#">
+								<a href="portfolio-details.html" class="btn">View Details</a>
+							</div>
+							<div class="single-pf">
+								<img src="img/pf2.jpg" loading="lazy" width="320" height="253" alt="#">
+								<a href="portfolio-details.html" class="btn">View Details</a>
+							</div>
+							<div class="single-pf">
+								<img src="img/pf3.jpg" loading="lazy" width="320" height="253" alt="#">
+								<a href="portfolio-details.html" class="btn">View Details</a>
+							</div>
+							<div class="single-pf">
+								<img src="img/pf4.jpg" loading="lazy" height="253" width="320" alt="#">
 								<a href="portfolio-details.html" class="btn">View Details</a>
 							</div>
 						</div>
@@ -740,7 +748,7 @@
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog1.jpg" width="557" height="373" alt="#">
+								<img src="img/blog1.jpg" loading="lazy" width="557" height="373" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -756,7 +764,7 @@
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog2.jpg" width="557" height="373" alt="#">
+								<img src="img/blog2.jpg" loading="lazy" width="557" height="373" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -772,7 +780,7 @@
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog3.jpg" width="557" height="373" alt="#">
+								<img src="img/blog3.jpg" loading="lazy" width="557" height="373" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -912,7 +920,7 @@
 					</div>
 					<div class="col-lg-6 col-md-12 ">
 						<div class="appointment-image">
-							<img src="img/contact-img.webp" width="522" height="523" alt="#">
+							<img src="img/contact-img.webp" width="522" height="523" loading="lazy" alt="#">
 						</div>
 					</div>
 				</div>
@@ -1049,7 +1057,7 @@
 		<!-- Popper JS -->
 		<script src="js/popper.min.js" defer ></script>
 		<!-- Bootstrap Datepicker JS -->
-		<script src="js/bootstrap-datepicker.js" defer ></script>
+		<script src="js/js2/bootstrap-datepicker.min.js" defer ></script>
 		<!-- Jquery Nav JS -->
         <script src="js/jquery.nav.js" defer ></script>
 		<!-- Slicknav JS -->
@@ -1061,11 +1069,11 @@
 		<!-- Tilt Jquery JS -->
 		<script src="js/tilt.jquery.min.js" defer ></script>
 		<!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js" defer ></script>
+        <script src="js/js2/owl-carousel.min.js" defer ></script>
 		<!-- counterup JS -->
 		<script src="js/jquery.counterup.min.js" defer ></script>
 		<!-- Steller JS -->
-		<script src="js/steller.js" defer ></script>
+		<script src="js/js2/steller.min.js" defer ></script>
 		<!-- Wow JS -->
 		<script src="js/wow.min.js" defer ></script>
 		<!-- Magnific Popup JS -->
@@ -1073,8 +1081,8 @@
 		<!-- Counter Up CDN JS -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"defer ></script>
 		<!-- Bootstrap JS -->
-		<script src="js/bootstrap.min.js" defer ></script>
+		<script src="js/bootstrap.min.min.js" defer ></script>
 		<!-- Main JS -->
-		<script src="js/main.js" defer ></script>
+		<script src="js/js2/main.min.min.js" defer ></script>
     </body>
 </html>
