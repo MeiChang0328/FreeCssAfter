@@ -93,21 +93,27 @@
         <!-- End Preloader -->
 		
 		<!-- Get Pro Button -->
-		<ul class="pro-features">
+		<div class="pro-features">
+			<!-- 正確的結構：將 <a> 置於 <div> 或其他容器內 -->
 			<a class="get-pro" href="#">Get Pro</a>
-			<li class="big-title">Pro Version Available on Themeforest</li>
-			<li class="title">Pro Version Features</li>
-			<li>2+ premade home pages</li>
-			<li>20+ html pages</li>
-			<li>Color Plate With 12+ Colors</li>
-			<li>Sticky Header / Sticky Filters</li>
-			<li>Working Contact Form With Google Map</li>
+			<ul>
+				<li class="big-title">Pro Version Available on Themeforest</li>
+				<li class="title">Pro Version Features</li>
+				<li>2+ premade home pages</li>
+				<li>20+ html pages</li>
+				<li>Color Plate With 12+ Colors</li>
+				<li>Sticky Header / Sticky Filters</li>
+				<li>Working Contact Form With Google Map</li>
+			</ul>
+
+			<!-- 按鈕區域不應包含在 <ul> 內，移至外部 -->
 			<div class="button">
 				<a href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879" target="_blank" class="btn">Pro Version Demo</a>
 				<a href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910" target="_blank" class="btn">Buy Pro Version</a>
 			</div>
-		</ul>
-	
+		</div>
+
+
 		<!-- Header Area -->
 		<header class="header" >
 			<!-- Topbar -->
@@ -978,11 +984,11 @@
 								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
 								<!-- Social -->
 								<ul class="social">
-									<li><a href="https://www.facebook.com/" alt="臉書"><i class="icofont-facebook"></i></a></li>
-									<li><a href="https://www.google.com/" alt="google"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="https://x.com/?lang=zh-Hant" alt="twitter"><i class="icofont-twitter"></i></a></li>
-									<li><a href="https://meichang0328.github.io/FreeCssAfter/" alt="vidmeo"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="https://meichang0328.github.io/FreeCssAfter/" alt="icofont-pinterest"><i class="icofont-pinterest"></i></a></li>
+									<li><a href="https://www.facebook.com/" aria-label="臉書"><i class="icofont-facebook"></i></a></li>
+									<li><a href="https://www.google.com/" aria-label="Google"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="https://x.com/?lang=zh-Hant" aria-label="Twitter"><i class="icofont-twitter"></i></a></li>
+									<li><a href="https://meichang0328.github.io/FreeCssAfter/" aria-label="Vimeo"><i class="icofont-vimeo"></i></a></li>
+									<li><a href="https://meichang0328.github.io/FreeCssAfter/" aria-label="Pinterest"><i class="icofont-pinterest"></i></a></li>
 								</ul>
 								<!-- End Social -->
 							</div>
