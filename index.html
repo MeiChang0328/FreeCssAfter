@@ -1143,61 +1143,6 @@
 		<script src="js/js2/main.min.min.js" defer ></script>
 		<!-- Custom JS -->
 		<!-- JavaScript 用來控制 Cookie 同意和加載第三方腳本 -->
-		<script>
-			// 檢查用戶是否已經同意 Cookie
-			function checkCookieConsent() {
-				if (!localStorage.getItem('cookies_accepted')) {
-					// 如果未同意，顯示 Cookie 通知
-					document.getElementById('cookie-banner').style.display = 'block';
-				}
-			}
-
-			// 當用戶同意 Cookie 時，設置並加載第三方腳本
-			function acceptCookies() {
-				localStorage.setItem('cookies_accepted', 'true');
-				document.getElementById('cookie-banner').style.display = 'none';
-
-				// 加載 jQuery 和 Google Analytics
-				loadJQuery();
-				loadGoogleAnalytics();
-			}
-
-			// 當用戶拒絕 Cookie 時，隱藏通知並不加載第三方腳本
-			function rejectCookies() {
-				localStorage.setItem('cookies_accepted', 'false');
-				document.getElementById('cookie-banner').style.display = 'none';
-			}
-
-			// 加載 jQuery
-			function loadJQuery() {
-				var script = document.createElement('script');
-				script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-				script.async = true;
-				document.head.appendChild(script);
-			}
-
-			// 加載 Google Analytics
-			function loadGoogleAnalytics() {
-				var script = document.createElement('script');
-				script.src = "https://www.googletagmanager.com/gtag/js?id=UA-12345678-1";  // 替換成你的 Google Analytics ID
-				script.async = true;
-				document.head.appendChild(script);
-
-				script.onload = function() {
-					window.dataLayer = window.dataLayer || [];
-					function gtag() { dataLayer.push(arguments); }
-					gtag('js', new Date());
-					gtag('config', 'UA-12345678-1');  // 替換成你的 Google Analytics ID
-				};
-			}
-
-			// 等待用戶操作
-			document.getElementById('acceptCookies').onclick = acceptCookies;
-			document.getElementById('rejectCookies').onclick = rejectCookies;
-
-			// 初始化檢查 Cookie 同意
-			window.onload = checkCookieConsent;
-		</script>
 
 		<script>
 			// 檢查用戶是否已經同意 Cookie
